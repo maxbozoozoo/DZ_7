@@ -51,10 +51,9 @@
       <div class="container">
         <div class="box__calculation">
           <div class="form__calculation">
-            <h2>
-              Получить рассчет стоимости доставки вашего груза
-              <hr />
-            </h2>
+            
+            
+            <h2>Получить рассчет стоимости доставки вашего груза <hr> </h2>
 
             <form>
               <div class="wrapper_input_product">
@@ -85,15 +84,15 @@
                 <div class="wrapper_input_checkbox">
                   <div class="first_checbox">
                     <label>
-                      <input type="checkbox" />
-                      Страховка
+                      <input type="checkbox" class="custom_checkbox" />
+                      <span>Страховка</span>
                     </label>
                   </div>
 
                   <div class="second_checbox">
                     <label>
-                      <input type="checkbox" />
-                      Таможенное оформление
+                      <input type="checkbox" class="custom_checkbox" />
+                      <span>Таможенное оформление</span>
                     </label>
                   </div>
                 </div>
@@ -103,11 +102,16 @@
                 </div>
               </div>
 
-              <div class="wrapper_image">
-                <span>Фотография.jpg</span>
-                <input type="file" accept=".jpg,.jpeg" />
-                <a href="#">Удалить фото</a>
-              </div>
+              <div class="form_file_box">
+                <div class="form_file_box_span">
+              <span>Фотография.jpg</span> <a href="#">Удалить фото</a>
+            </div>
+             <div class="form_file">
+              <input type="file" name="file" id="file" class="inputfile" multiple>
+              <label for="file"><span>Загрузить фото товара</span></label>
+             </div>
+            </div>
+
               <div class="slider__contenr">
                 <button>
                   <span>Рассчитать стоимость</span>
@@ -511,11 +515,11 @@
     <footer>
       <div class="container">
         <div class="footer_wrapper">
-          <hr>
-         
+          <hr />
+
           <div class="footer_boxes">
             <div class="footer_box_first">
-              <img src="/assets/img/logo_header.png" alt="logo">
+              <img src="/assets/img/logo_header.png" alt="logo" />
               <a class="phone" href="#">8(800)600-18-69</a>
               <a class="info" href="#">info@gargosio.info</a>
 

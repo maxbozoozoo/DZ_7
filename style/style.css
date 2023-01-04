@@ -162,6 +162,8 @@ nav a {
   margin-left: 497px;
   margin-top: -22px;
   border-color: #89c249;
+
+  border-top: 1px;
 }
 
 .form__calculation span {
@@ -183,6 +185,7 @@ nav a {
   font-size: 15px;
   line-height: 126%;
   padding-left: 20px;
+  border: 0;
 }
 
 .wrapper_input_product {
@@ -231,11 +234,59 @@ nav a {
   font-size: 15px;
   line-height: 126%;
   padding-left: 20px;
+  border: 0;
 }
 
-.wrapper_image {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.form_file_box {
+  margin-top: 36px;
+  margin-bottom: 26px;
+}
+
+.form_file_box_span {
+  display: flex;
+  justify-content: space-between;
+}
+.form_file_box span {
+  width: 340px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.form_file_box a {
+  font-weight: 400;
+  font-size: 13px;
+  color: #e53535;
+}
+
+.form_file {
+  width: 526px;
+  height: 43px;
+  border: 1px dashed rgba(255, 255, 255, 0.26);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 18px;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  overflow: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  width: 526px;
+  height: 43px;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+
+  text-align: center;
+  cursor: pointer;
 }
 
 .wrapper_image a {
@@ -299,7 +350,6 @@ nav a {
 .icon_vector_last {
   width: 163px;
   margin-top: 61px;
-
 }
 
 figcaption {
@@ -426,9 +476,6 @@ figcaption {
   background-color: rgba(255, 0, 0, 0);
   font-weight: 600;
   font-size: 15px;
-  line-height: 146%;
-  /* identical to box height, or 22px */
-
   text-align: center;
 
   color: #ffffff;
@@ -440,8 +487,6 @@ figcaption {
 .service {
   width: 100%;
   height: 794px;
-  left: 50px;
-  top: 3275px;
   margin-top: 100px;
 
   background: linear-gradient(0deg, #363a4d, #363a4d), #f7f7f7;
@@ -613,8 +658,6 @@ figcaption {
   background: #ffffff;
   border-radius: 10px;
 
-  font-family: "Proxima Nova";
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 126%;
@@ -695,7 +738,6 @@ figcaption {
 }
 
 .ready_box_text {
-  margin-top: ;
   height: 885px;
 }
 
